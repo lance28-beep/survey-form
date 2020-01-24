@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <section id="showcase">
+        <div class="container">
+            <a href="#">
+                <div id="logo">
+                        <h1>Atlantic</h1>
+                        <h2>BAKERY</h2>
+                </div>
+            </a>
+            <div id="para-1">
+                <p>BAKERY SURVEY</p>
+                <p>In order to ensure that we best meet your needs, 
+                    please take a few minutes to answer a few survey questions. 
+                    We very much appreciate your input and feedback.</p>
+            </div>
+        </div>
+    </section>
+</div>
+ <div class="container">
+     <header class="header">
+         <h1 id="title" class="text-container">
+             <p id="description" class="description text-center">Atlantic Baker Survey Form
+             </p>
+         </h1>
+         <header>
+             <form action="" id="survey-form">
+                 <div class="form-group">
+                     <label for="name" id="name-label">Name:</label>
+                     <input type="text" name="name" id="name" class="form-control" placeholder="enter your name" required>
+                 </div>
+                 <div class="form-group">
+                     <label for="email" id="email-label">Email:</label>
+                     <input type="email" name="email" id="email" class="form-control" placeholder="enter yout email address" required>
+                 </div>
+                 <div class="form-group">
+                     <label for="number" id="number-label">Age:<span class="clue">(optional)</span></label>
+                     <input type="number" name="number" id="number" min="10" max="99" class="form-control" placeholder="Age">
+                 </div>
+                 <div class="form-group">
+                     <p>What time of day would you most likely shop at the bakery? 
+                     </p>
+                     <select name="role" id="dropdown" class="form-control" required>
+                         <option disabled selected value>Select your answer</option>
+                         <option value="option1">Morning</option>
+                         <option value="option2">Midday</option>
+                         <option value="option3">Afternoon</option>
+                         <option value="option4">Evening</option>
+                     </select>
+                 </div>
+                 <div class="form-group">
+                     <p>When buying baked goods, how many do you usually buy for?</p>
+                     <label>
+                         <input type="radio" name="user-recommend" id="One"  value="One" class="input-radio" checked> 
+                        One
+                     </label>
+                     <label>
+                        <input type="radio" name="user-recommend" id="Two"  value="Two" class="input-radio" checked> 
+                       Two
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" id="Four"  value="Four" class="input-radio" checked> 
+                       Four
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" id="Over Five"  value="Over Five" class="input-radio" checked> 
+                       Over Five
+                    </label>
+                 </div>
+                    <div class="form-group">
+                        <p>
+                        What products would you most like the bakery to offer?
+                        <span class="clue">(Check all that apply)</span>
+                        </p>
+                        <label><input name="prefer" value="Cakes" type="checkbox" class="input-checkbox" />Cakes</label
+                              >
+                        <label>
+                        <input name="prefer" value="Breads" type="checkbox" class="input-checkbox" />Breads</label
+                              >
+                        <label><input name="prefer" value="Cupcakes" type="checkbox" class="input-checkbox" />Cupcakes</label
+                              >
+                        <label><input name="prefer" value="Pies/Tarts" type="checkbox" class="input-checkbox" />Pies/Tarts</label
+                              >
+                        <label><input name="prefer" value="Breakfast Items" type="checkbox" class="input-checkbox" />Breakfast Items</label
+                              >
+                        <label><input name="prefer" value="Desserts" type="checkbox" class="input-checkbox" />Desserts</label
+                              >
+                    </div>
+                    <div class="form-group">
+                        <p>Any comments or suggestions?</p>
+                        <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..." cols="30" rows="4"></textarea>
+                        </div>
+                        <div class="form-group">
+                        <button type="submit" id="submit" class="submit-button">
+                        Submit
+                        </button>
+                        </div>
+                        </form>
+                 </div>
+             </form>
+         </header>
+     </header>
+ </div>
+</body>
+</html>

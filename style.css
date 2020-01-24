@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Rozha+One&display=swap');
+body{
+    background-color: burlywood;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden; /* no scrollbar */
+}
+
+#showcase{
+    background-image: url(images/atlantic.jfif);
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.9 ;
+    margin-top: 1rem;
+    position: relative;
+
+}
+
+#logo{
+    margin-top: 5px;
+    padding: 1px;
+    background-color: red;
+    border-radius: 50%;
+    border:4px solid green;
+    width: 190px;
+    height: 110px;
+    box-sizing: border-box;
+    position: absolute;
+    top:2%;
+    left: 2%;
+}
+
+#showcase h1{
+ color: orange;
+ text-align: center;
+ font-size: 3rem;
+ font-family: 'Parisienne', cursive;
+ font-weight: 900;
+ padding-top: 0px;
+ margin-bottom: 0px;
+ margin: 2rem 4px 0px 4px;
+}
+
+#showcase h2{
+    color: white;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Rozha One', serif;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1px;
+    margin-top: 0;
+}
+
+#para-1{
+    background-color:rgba(255, 166, 0, 0.555);
+    position: absolute;
+    top:50%;
+    left: 2%;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    width: 95%;
+}
+@media(max-width:600px){
+    #para-1{
+        top:60%;
+        font-size: 10px;
+        line-height: normal;
+    }
+
+}
+.text-center{
+    text-align: center;
+    font-weight: 500;
+}
+
+#survey-form{
+    background-color: orange;
+    padding: 40px;
+    position: relative;
+}
+
+#survey-form label{
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.form-group{
+    margin: 10px;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    height: 2rem;
+
+}
